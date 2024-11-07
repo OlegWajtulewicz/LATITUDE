@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('html/_head.htm',{
+	"title":"HomePage"
+	})
+	<body>
+		<div class="wrapper  " data-scroll-container>
+			<img src="@img/main-foto.jpg" alt="Image" class="bg-cover relative h-[100vh] object-cover" >
+			
+			<header class="header w-full z-20 border-slate-500 border-b absolute top-0 left-0 px-8 sm:px-20" data-scroll-section>
+				<nav class="menu__body group-hover:left-[-3vw] pl-[5vw] transition-all duration-600 ease-custom-ease-2 z-20 t-0 fixed translate-rotate h-[100vh] w-[19em] sm:w-[28em] -left-[5vw] bg-[#7a124d] ">
+					<ul class="menu__list relative flex flex-col justify-center gap-8 pt-[15vw] h-[70%] text-base sm:text-lg md:text-2xl p-8 text-[#ebe2e7] overflow-y-auto ">
+						<li class="menu__item"><a href="#" class="menu__link hover:text-white transition duration-300 hover:translate-x-2">Home</a></li>
+						<li class="menu__item"><a href="#" class="menu__link hover:text-white transition duration-300 hover:translate-x-2">Terms & Conditions</a></li>
+						<li class="menu__item"><a href="#" class="menu__link hover:text-white transition duration-300 hover:translate-x-2">Legal stuff</a></li>
+						<li class="menu__item"><a href="#" class="menu__link hover:text-white transition duration-300 hover:translate-x-2">Contact</a></li>
+						
+					</ul>
+				</nav>
+				<div class="btn-hamburger border-slate-500 border-b w-full flex items-center justify-between py-8 sm:py-10 md:py-14 ">
+					<div class="menu rounded-full overflow-hidden z-20 group left-0 py-2 scale-100 translate-y-0 rotate-[0.001deg]">
+						<button type="button" class="flex items-center justify-center flex-col h-12 w-12 relative ">
+							<span class="absolute transition-all duration-700 ease-custom-ease translate-y-[-.2em] group-hover:translate-y-[.2em] rotate-[0.001deg] w-[50%] h-[3px] bg-slate-50"></span>
+							<span class="absolute transition-all duration-700 ease-custom-ease translate-y-[.2em] group-hover:translate-y-[-.2em] rotate-[0.001deg] w-[50%] h-[3px] bg-slate-50"></span>
+						</button>
+					</div>
+					<div class="ml-auto w-28 sm:w-40 md:w-60 flex items-center justify-center">
+						<img src="@img/logo.png" alt="logo">
+					</div>
+				</div>
+				<div class="overlay fixed-nav-back"></div>
+				<hr class="h-0.5 opacity-50 w-full bg-slate-300">
+				
+			</header>
+			<main class="page ">
+				<section class="w-full  px-8 sm:px-28 bg-[#d2c1cb] relative " data-scroll-section>
+					<div class="flex flex-col py-10 sm:py-16 max-w-[1390px] mx-auto  text-[#7a124d]">
+					<div class="w-full " >
+						<h1 class="text-4xl sm:text-5xl md:text-6xl text-right text-white font-extralight absolute -top-28 sm:-top-48 right-8 sm:right-20">
+							Securing your <br> financial freedom</h1>
+					</div>
+					<div class="text-lg sm:text-2xl font-normal mb-2 text-center">
+						<p style="text-indent: 25px;" class="radius-3xl">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quasi,
+						 enim, dignissimos delectus debitis provident voluptatibus, 
+						 ullam quisquam rem iure perspiciatis. 
+						Exercitationem nulla minus expedita earum similique amet ipsam magnam.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quasi,
+						 enim, dignissimos delectus debitis provident voluptatibus, 
+						 ullam quisquam rem iure perspiciatis. 
+						Exercitationem nulla minus expedita earum similique amet ipsam magnam.
+						</p>
+					</div>
+					<a href="#" class="flex group items-center justify-end mt-8 font-bold hover:opacity-60 transition duration-300">
+						Testimonials
+						<img src="@img/arrow.png" alt="arrow" class="ml-2 h-[22px] transition duration-300 group-hover:translate-x-2">
+					</a>
+				</div>
+				</section>
+				<section class="w-full  px-8 sm:px-28 relative bg-white" data-scroll-section>
+					<div class="flex flex-col pt-20 pb-20 max-w-[1390px] mx-auto text-[#7a124d]">
+						<h2 class="text-4xl pb-4 sm:text-3xl md:text-4xl font-light">The Process</h2>
+						<hr class="h-0.5 opacity-80 w-full  bg-[#d2c1cb]">
+						<div class="flex flex-col-reverse md:flex-row py-14 gap-8 w-full items-center justify-center relative">
+							<div class="left md:w-[40%] flex flex-col md:flex-col-reverse  gap-2">
+								<div class="flex items-center gap-4 justify-end">
+									<div class="flex flex-col text-right leading-5">
+										<h4 class="font-semibold">4. Your personal plan</h4>
+										<p class="w-[13rem] sm:w-[16rem]">Lorem ipsum dolor sit amet consectetur 
+											adipisicing elit.
+											adipisicing elit.
+										</p>
+									</div>
+									<div class="  rounded-full bg-[#d2c1cb]">
+										<figure class="w-[100px] h-[100px] lg:w-[160px] lg:h-[160px] p-5 lg:p-7 flex justify-center items-center">
+											<img src="@img/4.png" alt="Image" class="h-full object-cover">	
+										</figure>
+										
+									</div>
+								</div>
+								<div class="flex items-center gap-4 sm:mr-14 lg:mr-24 justify-end">
+									<div class="flex flex-col text-right leading-5">
+										<h4 class="font-semibold">5. Implementing your plan</h4>
+										<p class="w-[13rem] sm:w-[16rem]">Lorem ipsum dolor sit amet consectetur 
+											adipisicing elit.adipisicing elit.
+										</p>
+									</div>
+									<div class="  rounded-full bg-[#d2c1cb]">
+										<figure class="w-[100px] h-[100px] lg:w-[160px] lg:h-[160px] p-5 lg:p-7 flex justify-center items-center">
+											<img src="@img/5.png" alt="Image" class="h-full object-cover">	
+										</figure>
+										
+									</div>
+								</div>
+								<div class="flex items-center mw-[435px] gap-4 float-right justify-end">
+									<div class="flex flex-col text-right leading-5">
+										<h4 class="font-semibold">6. Your financial freedom</h4>
+										<p class="w-[13rem] sm:w-[16rem]">Lorem ipsum dolor sit amet consectetur 
+											adipisicing elit.
+										</p>
+									</div>
+									<div class="  rounded-full bg-[#d2c1cb]">
+										<figure class="w-[100px] h-[100px] lg:w-[160px] lg:h-[160px] p-5 lg:p-7 flex justify-center items-center">
+											<img src="@img/6.png" alt="Image" class="h-full object-cover">	
+										</figure>
+									</div>
+								</div>
+								
+							</div>
+							<figure class="w-[100px] lg:w-[160px] h-[100px] lg:h-[160px] flex justify-center roanded-full rotate-[110deg] items-center md:absolute md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2">
+								<img src="@img/arrow2.png" alt="Image" class="h-full object-cover">	
+							</figure>
+							<div class="right md:w-[40%] flex flex-col gap-2">
+								<div class="flex items-center flex-row-reverse gap-4 justify-end">
+									<div class="flex flex-col text-left leading-5">
+										<h4 class="font-semibold">1. Initial meeting</h4>
+										<p class="w-[13rem] sm:w-[16rem]">Lorem ipsum dolor sit amet consectetur 
+											adipisicing elit.
+											adipisicing elit.
+										</p>
+									</div>
+									<div class="  rounded-full bg-[#d2c1cb]">
+										<figure class="w-[100px] h-[100px] lg:w-[160px] lg:h-[160px] p-5 lg:p-7 flex justify-center items-center">
+											<img src="@img/1.png" alt="Image" class="h-full object-cover">	
+										</figure>
+										
+									</div>
+								</div>
+								<div class="flex items-center flex-row-reverse gap-4 sm:ml-14 lg:ml-24 justify-end">
+									<div class="flex flex-col text-left leading-5">
+										<h4 class="font-semibold">2. Financial review</h4>
+										<p class="w-[13rem] sm:w-[16rem]">Lorem ipsum dolor sit amet consectetur 
+											adipisicing elit.
+											adipisicing elit.
+										</p>
+									</div>
+									<div class="  rounded-full bg-[#d2c1cb]">
+										<figure class="w-[100px] h-[100px] lg:w-[160px] lg:h-[160px] p-5 lg:p-7 flex justify-center items-center">
+											<img src="@img/2.png" alt="Image" class="h-full object-cover">	
+										</figure>
+										
+									</div>
+								</div>
+								<div class="flex items-center flex-row-reverse gap-4 justify-end">
+									<div class="flex flex-col text-left leading-5">
+										<h4 class="font-semibold">3. Aims & objectives</h4>
+										<p class="w-[13rem] sm:w-[16rem]">Lorem ipsum dolor sit amet consectetur 
+											adipisicing elit.
+											adipisicing elit.
+										</p>
+									</div>
+									<div class="rounded-full bg-[#d2c1cb]">
+										<figure class="w-[100px] h-[100px] lg:w-[160px] lg:h-[160px] p-5 lg:p-7 flex justify-center items-center">
+											<img src="@img/3.png" alt="Image" class="h-full object-cover">	
+										</figure>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="flex items-center justify-end my-8 font-bold group hover:opacity-60 transition duration-300">
+							Meet our clients
+							<img src="@img/arrow.png" alt="arrow" class="ml-2 h-[22px] transition duration-300 group-hover:translate-x-2">
+						</a>
+						<hr class="h-0.5 opacity-80 w-full  bg-[#d2c1cb]">
+					</div>
+				</section>
+				
+			</main>
+			<footer class="footer bg-[#7a124d] w-full">
+				<div class="container_ w-full px-8 sm:px-20 flex flex-col-reverse sm:flex-row gap-8 sm:justify-between mx-auto py-10">
+					<div class="flex flex-col gap-6 text-[#d2c1cb]">
+						<h4>LATITUDE: <span class="italic ">Freedom of thought</span></h4>
+						<ul class="flex flex-col gap-2">
+							<li><a class="hover:text-white transition duration-300 " href="#">Terms & Conditions</a></li>
+							<li><a class="hover:text-white transition duration-300" href="#">Legal stuff</a></li>
+							<li><a class="hover:text-white transition duration-300" href="#">Contact</a></li>
+						</ul>
+						<div>© <a href="mailto:latitudewealthstrategies.com" class="hover:text-white transition duration-300">latitudewealthstrategies.com</a>  </div>
+					</div>
+					<div class="">
+						<img src="@img/logo.png" alt="Image" class="w-36 md:w-40">
+					</div>
+				</div>
+			</footer>
+		</div>
+		@@include('html/_js.htm',{})
+	</body>
+</html>
